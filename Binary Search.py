@@ -27,7 +27,8 @@ while found == False and last >= first:
             last = midpoint - 1
 
 #
-if Found == True:
+if found == True:
     print(f"Data item '{searchTerm}' found at position {midpoint}.")
 else:
     print(f"Data element '{searchTerm}' not found")
+
